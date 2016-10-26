@@ -1,0 +1,34 @@
+# Elastic Beanstalk Files
+######################
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+data/
+
+# Application files
+######################
+ghostdriver.log
+*.pyc
+.webassets-cache
+__pycache__
+settings_local.py
+peddle/peddle/environment_settings/local.py
+venv/
+.sass-cache
+node_modules/
+dump.rdb
+www/uploads/
+celerybeat-schedule.db
+
+# OS generated files
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea
+credentials.json
+errors.log
